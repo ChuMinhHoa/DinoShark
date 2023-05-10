@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b24a64c829ab2b49a74bbdfbbb8ad83, type: 3}
+  m_Name: TutorialDataConfig
+  m_EditorClassIdentifier: 
+  tutorialDatas:
+  - tutorialName: Upgrade machine
+    tutorialType: 0
+    tutorialConditionType: 5
+    conditionAmount: 3
+    countSteps: 4
+    stepMarkTutorialDone: 1
+    level: 0
+    stepDescriptions: []
+  - tutorialName: Upgrade
+    tutorialType: 1
+    tutorialConditionType: 1
+    conditionAmount: 5
+    countSteps: 3
+    stepMarkTutorialDone: 1
+    level: 0
+    stepDescriptions: []
+  - tutorialName: UpgradePros
+    tutorialType: 9
+    tutorialConditionType: 1
+    conditionAmount: 4
+    countSteps: 5
+    stepMarkTutorialDone: 2
+    level: 0
+    stepDescriptions:
+    - 
+    - This is current profit.
+    - Upgrade machine to get more profit.
+    - Your profits have been increased.
+    - 
+  - tutorialName: UnlockNewStaff
+    tutorialType: 10
+    tutorialConditionType: 8
+    conditionAmount: 2
+    countSteps: 1
+    stepMarkTutorialDone: 0
+    level: 0
+    stepDescriptions:
+    - Make more product by unlock staff.
+  - tutorialName: ExtendMap
+    tutorialType: 2
+    tutorialConditionType: 4
+    conditionAmount: 0
+    countSteps: 1
+    stepMarkTutorialDone: 0
+    level: 0
+    stepDescriptions: []
+  - tutorialName: Upgrade machine 2
+    tutorialType: 8
+    tutorialConditionType: 5
+    conditionAmount: 0
+    countSteps: 4
+    stepMarkTutorialDone: 1
+    level: 1
+    stepDescriptions: []
+  - tutorialName: Maderchine
+    tutorialType: 4
+    tutorialConditionType: 2
+    conditionAmount: 10
+    countSteps: 3
+    stepMarkTutorialDone: 1
+    level: 1
+    stepDescriptions: []
+  - tutorialName: Buy First Pack
+    tutorialType: 7
+    tutorialConditionType: 0
+    conditionAmount: 0
+    countSteps: 5
+    stepMarkTutorialDone: 2
+    level: 1
+    stepDescriptions: []
+  - tutorialName: Skin
+    tutorialType: 3
+    tutorialConditionType: 0
+    conditionAmount: 0
+    countSteps: 5
+    stepMarkTutorialDone: 2
+    level: 1
+    stepDescriptions: []
+  - tutorialName: InviteStaff
+    tutorialType: 5
+    tutorialConditionType: 6
+    conditionAmount: 2
+    countSteps: 2
+    stepMarkTutorialDone: 1
+    level: 2
+    stepDescriptions:
+    - 
+    - Invite a staff, help you make product.
+  - tutorialName: Marketing
+    tutorialType: 6
+    tutorialConditionType: 6
+    conditionAmount: 3
+    countSteps: 3
+    stepMarkTutorialDone: 1
+    level: 2
+    stepDescriptions:
+    - 
+    - Choose the product that you want customers to buy more than others.
+    - 
+  - tutorialName: UnlockTable
+    tutorialType: 12
+    tutorialConditionType: 8
+    conditionAmount: 9
+    countSteps: 1
+    stepMarkTutorialDone: 0
+    level: 3
+    stepDescriptions:
+    - 
+    - Choose the product that you want customers to buy more than others.
+    - 

@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204b69f4aedfaf409c538b79ac97755, type: 3}
+  m_Name: MenuDataConfig
+  m_EditorClassIdentifier: 
+  menuDataByLevels:
+  - {fileID: 11400000, guid: cdb4d9a1a3f52914d88829d5adf35c9c, type: 2}
+  - {fileID: 11400000, guid: d3de96cdfbfc92741ad407d88891058c, type: 2}
+  - {fileID: 11400000, guid: 620350bb0e31f7b439ed039aeafca1f6, type: 2}
+  - {fileID: 11400000, guid: d825a8618b3a1834e8fab79182f08359, type: 2}
+  - {fileID: 11400000, guid: e33cd356280265f43b9b4d5a1fd62b36, type: 2}
+  - {fileID: 11400000, guid: 7d57bf7d724596f48bdc54ed9b2db813, type: 2}
+  - {fileID: 11400000, guid: f881cee041a05ce4b855eb888f48937c, type: 2}
+  foodDefaultProperties:
+  - unlockPrice:
+      value: 1
+      exp: 0
+    firstUpgrade:
+      value: 1
+      exp: 0
+    firstProfit:
+      value: 3
+      exp: 0
+    timeMake: 5
+  - unlockPrice:
+      value: 84
+      exp: 0
+    firstUpgrade:
+      value: 50
+      exp: 0
+    firstProfit:
+      value: 110
+      exp: 0
+    timeMake: 10
+  - unlockPrice:
+      value: 4.2
+      exp: 3
+    firstUpgrade:
+      value: 2.5
+      exp: 3
+    firstProfit:
+      value: 4.3
+      exp: 3
+    timeMake: 15
+  - unlockPrice:
+      value: 210
+      exp: 3
+    firstUpgrade:
+      value: 130
+      exp: 3
+    firstProfit:
+      value: 180
+      exp: 3
+    timeMake: 20
+  - unlockPrice:
+      value: 11
+      exp: 6
+    firstUpgrade:
+      value: 6.3
+      exp: 6
+    firstProfit:
+      value: 6.9
+      exp: 6
+    timeMake: 25
+  - unlockPrice:
+      value: 530
+      exp: 6
+    firstUpgrade:
+      value: 320
+      exp: 6
+    firstProfit:
+      value: 280
+      exp: 6
+    timeMake: 30
+  - unlockPrice:
+      value: 27
+      exp: 9
+    firstUpgrade:
+      value: 16
+      exp: 9
+    firstProfit:
+      value: 11
+      exp: 9
+    timeMake: 35
+  - unlockPrice:
+      value: 1.4
+      exp: 12
+    firstUpgrade:
+      value: 790
+      exp: 9
+    firstProfit:
+      value: 440
+      exp: 9
+    timeMake: 40
+  - unlockPrice:
+      value: 66
+      exp: 12
+    firstUpgrade:
+      value: 40
+      exp: 12
+    firstProfit:
+      value: 18
+      exp: 12
+    timeMake: 45
+  - unlockPrice:
+      value: 3.3
+      exp: 15
+    firstUpgrade:
+      value: 2
+      exp: 15
+    firstProfit:
+      value: 700
+      exp: 12
+    timeMake: 50
+  machineUnlock: 010000000a0000003200000064000000
+  starUnlock: 0a00000019000000320000004b0000006400000096000000c8000000fa000000

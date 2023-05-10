@@ -1,0 +1,13 @@
+Upgrade Type,PriceValue,PriceEXP,Amount,Food ID,Spire Icon,SpireBootType,Upgrade ID,Ref ID
+AddCustomer,12,0,1,None,Shark_Customer_Icon,None,1,0
+AddCustomer,20,0,1,None,Shark_Customer_Icon,None,2,0
+AddCheff,35,0,1,None,Shark_Cheff_Icon,None,3,0
+ReduceTime,53,0,0.25,IceCreamSocola,IceCreamSocola_Icon,Reduce,4,0
+AddCheff,160,0,1,None,Shark_Cheff_Icon,None,5,0
+AddCustomer,400,0,1,None,Shark_Customer_Icon,None,6,0
+IncreasePrice,620,0,2,IceCreamSocola,IceCreamSocola_Icon,Increase,7,0
+ReduceTime,1.5,3,0.25,HotDog,HotDog_Icon,None,8,0
+IncreaseSpeedCheff,2.3,3,1.05,None,Speed_Icon,None,9,0
+AddCheff,2.9,3,1,None,Shark_Cheff_Icon,None,10,0
+AddCustomer,5.3,3,1,None,Shark_Customer_Icon,None,11,0
+IncreasePrice,13,3,2,HotDog,HotDog_Icon,Increase,12,0

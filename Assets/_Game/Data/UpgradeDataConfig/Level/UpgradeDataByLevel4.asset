@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7845d5757b09e7a40a8d70ecff5b91d9, type: 3}
+  m_Name: UpgradeDataByLevel4
+  m_EditorClassIdentifier: 
+  spriteDataConfig: {fileID: 11400000, guid: ef34a1475d0f4e042a93869937ee0aa7, type: 2}
+  upgradeCSVBylevel: {fileID: 4900000, guid: 7a498c0a4a84bb84f9dfc84788b09ea5, type: 3}
+  upgradeDatas:
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 9
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 1
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 22
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 2
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 130
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 3
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 0
+    refAmount: 0.25
+    priceUpgrade:
+      value: 200
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 4
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 420
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 5
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 970
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 6
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 0
+    refAmount: 3
+    priceUpgrade:
+      value: 9.7
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 7
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 1
+    refAmount: 0.25
+    priceUpgrade:
+      value: 16
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 8
+  - upgradeName: AddFloor
+    upgradeType: 7
+    foodID: 5
+    refAmount: 0
+    priceUpgrade:
+      value: 59
+      exp: 3
+    sprIcon: {fileID: 0}
+    sprIconBootType: {fileID: 0}
+    refID: 1
+    upgradeID: 9
+  - upgradeName: IncreaseSpeedCheff
+    upgradeType: 4
+    foodID: 5
+    refAmount: 1.05
+    priceUpgrade:
+      value: 69
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 57889b1ba0b8deb45bc96bbdbc7f7cbf, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 10
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 93
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 11
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 0
+    refAmount: 0.25
+    priceUpgrade:
+      value: 260
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 12
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 1
+    refAmount: 3
+    priceUpgrade:
+      value: 320
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 13
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 2
+    refAmount: 0.25
+    priceUpgrade:
+      value: 690
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 5514b58dc030ec34da8293e284acd3f7, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 14
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 0
+    refAmount: 5
+    priceUpgrade:
+      value: 3
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 15
+  - upgradeName: AddTable
+    upgradeType: 5
+    foodID: 5
+    refAmount: 4
+    priceUpgrade:
+      value: 4.1
+      exp: 6
+    sprIcon: {fileID: 0}
+    sprIconBootType: {fileID: 0}
+    refID: 2
+    upgradeID: 16
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 9.4
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 17
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 1
+    refAmount: 0.25
+    priceUpgrade:
+      value: 13
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 18
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 2
+    refAmount: 3
+    priceUpgrade:
+      value: 24
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 5514b58dc030ec34da8293e284acd3f7, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 19
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 3
+    refAmount: 0.25
+    priceUpgrade:
+      value: 41
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 41fd007bc03c6404b84fcbca8d75d881, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 20
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 1
+    refAmount: 5
+    priceUpgrade:
+      value: 120
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 21
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 0
+    refAmount: 10
+    priceUpgrade:
+      value: 250
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 22
+  - upgradeName: IncreaseSpeedCheff
+    upgradeType: 4
+    foodID: 5
+    refAmount: 1.05
+    priceUpgrade:
+      value: 290
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 57889b1ba0b8deb45bc96bbdbc7f7cbf, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 23
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 2
+    refAmount: 0.25
+    priceUpgrade:
+      value: 660
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 5514b58dc030ec34da8293e284acd3f7, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 24
+  - upgradeName: AddWaiter
+    upgradeType: 8
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 830
+      exp: 6
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 25
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 3
+    refAmount: 3
+    priceUpgrade:
+      value: 1.2
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 41fd007bc03c6404b84fcbca8d75d881, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 26
+  - upgradeName: AddTable
+    upgradeType: 5
+    foodID: 5
+    refAmount: 4
+    priceUpgrade:
+      value: 3.4
+      exp: 9
+    sprIcon: {fileID: 0}
+    sprIconBootType: {fileID: 0}
+    refID: 3
+    upgradeID: 27
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 2
+    refAmount: 5
+    priceUpgrade:
+      value: 7.2
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 5514b58dc030ec34da8293e284acd3f7, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 28
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 1
+    refAmount: 10
+    priceUpgrade:
+      value: 13
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 29
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 3
+    refAmount: 0.25
+    priceUpgrade:
+      value: 16
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 41fd007bc03c6404b84fcbca8d75d881, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 30
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 0
+    refAmount: 200
+    priceUpgrade:
+      value: 34
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 31
+  - upgradeName: AddTotalBoot
+    upgradeType: 6
+    foodID: 5
+    refAmount: 5
+    priceUpgrade:
+      value: 89
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 23b2ba3de7464564389642d75f1ef0db, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 32
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 170
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 33
+  - upgradeName: IncreaseSpeedCheff
+    upgradeType: 4
+    foodID: 5
+    refAmount: 1.05
+    priceUpgrade:
+      value: 290
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 57889b1ba0b8deb45bc96bbdbc7f7cbf, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 34
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 3
+    refAmount: 5
+    priceUpgrade:
+      value: 360
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 41fd007bc03c6404b84fcbca8d75d881, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 35
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 2
+    refAmount: 10
+    priceUpgrade:
+      value: 610
+      exp: 9
+    sprIcon: {fileID: 21300000, guid: 5514b58dc030ec34da8293e284acd3f7, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 36
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 1
+    refAmount: 20
+    priceUpgrade:
+      value: 2
+      exp: 12
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 37
+  - upgradeName: AddWaiter
+    upgradeType: 8
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 3.9
+      exp: 12
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 38
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 3
+    refAmount: 10
+    priceUpgrade:
+      value: 30
+      exp: 12
+    sprIcon: {fileID: 21300000, guid: 41fd007bc03c6404b84fcbca8d75d881, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 39
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 2
+    refAmount: 20
+    priceUpgrade:
+      value: 110
+      exp: 12
+    sprIcon: {fileID: 21300000, guid: 5514b58dc030ec34da8293e284acd3f7, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 40
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 3
+    refAmount: 20
+    priceUpgrade:
+      value: 5.1
+      exp: 15
+    sprIcon: {fileID: 21300000, guid: 41fd007bc03c6404b84fcbca8d75d881, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 41

@@ -1,0 +1,9 @@
+loading.png
+size:944,766
+filter:Linear,Linear
+pma:true
+Shape 15
+bounds:710,2,762,232
+rotate:90
+bong bóng 1
+bounds:2,58,706,706

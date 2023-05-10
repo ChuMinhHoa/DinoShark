@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d7f227dff9a624eadc9af4c2a33680, type: 3}
+  m_Name: ShopDataConfig
+  m_EditorClassIdentifier: 
+  sprConfig:
+  - {fileID: 21300000, guid: a275e015e907b1743a17c882f9a0b874, type: 3}
+  - {fileID: 21300000, guid: 967efb8d0625b154484244a3bc46ba50, type: 3}
+  - {fileID: 21300000, guid: d6a2d1489e106e149a0dcfb7d353f2e9, type: 3}
+  - {fileID: 21300000, guid: d44719fde638adc489ba99065f4cd579, type: 3}
+  - {fileID: 21300000, guid: be5c083532e65b747b098b417e58f479, type: 3}
+  - {fileID: 21300000, guid: 26953e013bd80fc4782cfc66c34dbe6c, type: 3}
+  - {fileID: 21300000, guid: 5a7ea9293d8858b498c006968715592e, type: 3}
+  - {fileID: 21300000, guid: b29036eccac4e0f4eb723fe191c1d03e, type: 3}
+  - {fileID: 21300000, guid: bc0b4caa6a6ac914ea7fe6c36b79550f, type: 3}
+  - {fileID: 21300000, guid: 3b4f5b66a443d2f448ede4ae698426bc, type: 3}
+  - {fileID: 21300000, guid: b225cb550bc857046b67ad6db919ccd4, type: 3}
+  - {fileID: 21300000, guid: 793d823e0de8e8842a836e9296a36c1e, type: 3}
+  - {fileID: 21300000, guid: 8b374979e6a2a4f48ba706cf8368299d, type: 3}
+  - {fileID: 21300000, guid: b82403fe3733a3a468af04be7f17de03, type: 3}
+  - {fileID: 21300000, guid: 6e2bd57e6ae24f14293696b0cb3d3413, type: 3}
+  - {fileID: 21300000, guid: c9294b1a9c07562458168c943f099f28, type: 3}
+  suitcaseOfferDatas:
+  - title: Free Suitcase
+    offerID: 0
+    price: 0
+    description: Get Free Outfit
+    offerType: 0
+    productID: 
+    itemRewards:
+    - icon: {fileID: 21300000, guid: b225cb550bc857046b67ad6db919ccd4, type: 3}
+      itemType: 0
+      amount: 1
+    itemEquips:
+    - icon: {fileID: 0}
+      itemType: 0
+      itemId: 0
+      outfitType: 0
+      rarity: 0
+  - title: Nobal Suitcase
+    offerID: 1
+    price: 80
+    description: 75% Uncommon Outfit opened
+    offerType: 0
+    productID: 
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 793d823e0de8e8842a836e9296a36c1e, type: 3}
+      itemType: 1
+      amount: 1
+    itemEquips: []
+  - title: Royal Suitcase
+    offerID: 2
+    price: 300
+    description: 10% Epic Outfit opened
+    offerType: 0
+    productID: 
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 8b374979e6a2a4f48ba706cf8368299d, type: 3}
+      itemType: 2
+      amount: 1
+    itemEquips: []
+  boosterOfferDatas:
+  - title: 4H Revenue
+    offerID: 3
+    price: 30
+    description: 
+    offerType: 0
+    productID: 
+    itemRewards:
+    - icon: {fileID: 21300000, guid: a275e015e907b1743a17c882f9a0b874, type: 3}
+      itemType: 3
+      amount: 1
+    itemEquips: []
+  - title: X2 Revenue
+    offerID: 4
+    price: 50
+    description: 20 Minutes
+    offerType: 0
+    productID: 
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 967efb8d0625b154484244a3bc46ba50, type: 3}
+      itemType: 4
+      amount: 20
+    itemEquips: []
+  - title: X5 Revenue
+    offerID: 5
+    price: 100
+    description: 5 Minutes
+    offerType: 0
+    productID: 
+    itemRewards:
+    - icon: {fileID: 21300000, guid: d6a2d1489e106e149a0dcfb7d353f2e9, type: 3}
+      itemType: 5
+      amount: 5
+    itemEquips: []
+  gemsOfferDatas:
+  - title: Few Gems
+    offerID: 6
+    price: 1.99
+    description: 200
+    offerType: 1
+    productID: gem1
+    itemRewards:
+    - icon: {fileID: 21300000, guid: be5c083532e65b747b098b417e58f479, type: 3}
+      itemType: 6
+      amount: 200
+    itemEquips: []
+  - title: Dozen of gems
+    offerID: 6
+    price: 4.99
+    description: 600
+    offerType: 1
+    productID: gem2
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 26953e013bd80fc4782cfc66c34dbe6c, type: 3}
+      itemType: 6
+      amount: 600
+    itemEquips: []
+  - title: Packs of Gems
+    offerID: 6
+    price: 9.99
+    description: 1400
+    offerType: 1
+    productID: gem3
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 5a7ea9293d8858b498c006968715592e, type: 3}
+      itemType: 6
+      amount: 1400
+    itemEquips: []
+  - title: 'Bowl of Gems '
+    offerID: 6
+    price: 19.99
+    description: 2900
+    offerType: 1
+    productID: gem4
+    itemRewards:
+    - icon: {fileID: 21300000, guid: b29036eccac4e0f4eb723fe191c1d03e, type: 3}
+      itemType: 6
+      amount: 2900
+    itemEquips: []
+  - title: Box of Gems
+    offerID: 6
+    price: 49.99
+    description: 7500
+    offerType: 1
+    productID: gem5
+    itemRewards:
+    - icon: {fileID: 21300000, guid: bc0b4caa6a6ac914ea7fe6c36b79550f, type: 3}
+      itemType: 6
+      amount: 7500
+    itemEquips: []
+  - title: Treasure of Gems
+    offerID: 6
+    price: 99.99
+    description: 16000
+    offerType: 1
+    productID: gem6
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 3b4f5b66a443d2f448ede4ae698426bc, type: 3}
+      itemType: 6
+      amount: 16000
+    itemEquips: []
+  specialOfferDatas:
+  - title: Remove Ads Pack
+    offerID: 7
+    price: 19.99
+    description: 
+    offerType: 1
+    productID: remove_ads
+    itemRewards:
+    - icon: {fileID: 21300000, guid: d44719fde638adc489ba99065f4cd579, type: 3}
+      itemType: 7
+      amount: 1
+    - icon: {fileID: 21300000, guid: 26953e013bd80fc4782cfc66c34dbe6c, type: 3}
+      itemType: 6
+      amount: 600
+    - icon: {fileID: 21300000, guid: 8b374979e6a2a4f48ba706cf8368299d, type: 3}
+      itemType: 2
+      amount: 1
+    itemEquips: []
+  - title: Starter Pack
+    offerID: 8
+    price: 0.99
+    description: 
+    offerType: 1
+    productID: starter_pack1
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 26953e013bd80fc4782cfc66c34dbe6c, type: 3}
+      itemType: 6
+      amount: 300
+    - icon: {fileID: 21300000, guid: 793d823e0de8e8842a836e9296a36c1e, type: 3}
+      itemType: 1
+      amount: 5
+    itemEquips:
+    - icon: {fileID: 21300000, guid: 6e2bd57e6ae24f14293696b0cb3d3413, type: 3}
+      itemType: 11
+      itemId: 1
+      outfitType: 0
+      rarity: 3
+  - title: Sharp Teeth Pack
+    offerID: 9
+    price: 2.99
+    description: 
+    offerType: 1
+    productID: sharp_pack1
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 26953e013bd80fc4782cfc66c34dbe6c, type: 3}
+      itemType: 6
+      amount: 600
+    - icon: {fileID: 21300000, guid: 793d823e0de8e8842a836e9296a36c1e, type: 3}
+      itemType: 1
+      amount: 2
+    itemEquips:
+    - icon: {fileID: 21300000, guid: b82403fe3733a3a468af04be7f17de03, type: 3}
+      itemType: 11
+      itemId: 1
+      outfitType: 1
+      rarity: 3
+  - title: Great Shark Pack
+    offerID: 10
+    price: 19.99
+    description: 
+    offerType: 1
+    productID: sharp_pack2
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 5a7ea9293d8858b498c006968715592e, type: 3}
+      itemType: 6
+      amount: 2000
+    - icon: {fileID: 21300000, guid: 8b374979e6a2a4f48ba706cf8368299d, type: 3}
+      itemType: 2
+      amount: 10
+    itemEquips:
+    - icon: {fileID: 21300000, guid: c9294b1a9c07562458168c943f099f28, type: 3}
+      itemType: 11
+      itemId: 1
+      outfitType: 2
+      rarity: 3
+  revenuePack:
+    title: X2 All Revenue
+    offerID: 12
+    price: 4.99
+    description: 
+    offerType: 1
+    productID: revenue
+    itemRewards:
+    - icon: {fileID: 0}
+      itemType: 12
+      amount: 1
+    itemEquips: []
+  depositPack:
+    title: Sharko Bank
+    offerID: 13
+    price: 2.99
+    description: Upgrade to fill up gems in the Sharko Bank
+    offerType: 1
+    productID: piggy_pack
+    itemRewards:
+    - icon: {fileID: 21300000, guid: 5a7ea9293d8858b498c006968715592e, type: 3}
+      itemType: 6
+      amount: 350
+    - icon: {fileID: 21300000, guid: 5a7ea9293d8858b498c006968715592e, type: 3}
+      itemType: 6
+      amount: 700
+    itemEquips: []

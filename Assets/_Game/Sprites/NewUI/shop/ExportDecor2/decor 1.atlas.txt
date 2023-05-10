@@ -1,0 +1,40 @@
+decor 1.png
+size:783,673
+filter:Linear,Linear
+pma:true
+Ellipse 1
+bounds:257,32,92,89
+Layer 12 copy
+bounds:579,2,86,89
+rotate:90
+Rounded Rectangle 16
+bounds:743,97,39,37
+rotate:90
+Shape 15
+bounds:2,439,762,232
+Shape 16
+bounds:579,90,162,46
+arm
+bounds:386,57,191,79
+ca
+bounds:397,138,374,299
+can
+bounds:2,52,193,253
+rotate:90
+e1
+bounds:351,96,25,32
+rotate:90
+e2
+bounds:351,68,26,31
+rotate:90
+paho
+bounds:2,247,393,190
+quai
+bounds:727,42,54,46
+xo
+bounds:257,123,122,127
+rotate:90
+xu1
+bounds:670,46,55,42
+xu2
+bounds:670,3,55,41

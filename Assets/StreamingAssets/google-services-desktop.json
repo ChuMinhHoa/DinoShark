@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965927717396",
+    "project_id": "idle-food-adventure",
+    "storage_bucket": "idle-food-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965927717396:android:3b4e55430d3a9d15ab3501",
+        "android_client_info": {
+          "package_name": "com.abi.dino.shark.food.tycoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965927717396-rm5et944kgn3c4kim0h2mh8e84f95d3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0YawUd4owKwj_c8TiyqWikUWcpjlNpr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965927717396-rm5et944kgn3c4kim0h2mh8e84f95d3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

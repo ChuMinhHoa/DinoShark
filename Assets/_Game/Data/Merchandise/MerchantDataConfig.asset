@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a3740be66011b47af08fc7d20f8953, type: 3}
+  m_Name: MerchantDataConfig
+  m_EditorClassIdentifier: 
+  merchandises:
+  - merchantType: 0
+    sprOn: {fileID: 21300000, guid: 4912fa15c1d50f941b4388210343964d, type: 3}
+    sprOff: {fileID: 21300000, guid: 367b8785bf7a41941a9c800f62aaa800, type: 3}
+    description: '% chance getting tip'
+    value:
+    - 0
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    upgrade: 000000000000000014000000280000003c00000050000000
+  - merchantType: 1
+    sprOn: {fileID: 21300000, guid: 9d51ac8a5807c6941884b2832d677e8a, type: 3}
+    sprOff: {fileID: 21300000, guid: 5710bedd6bc8ca8479220d40b50ad287, type: 3}
+    description: '% chance for gem reward ads'
+    value:
+    - 0
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    upgrade: 000000003200000014000000280000003c00000050000000
+  - merchantType: 2
+    sprOn: {fileID: 21300000, guid: 76ca596fb3efd3d4f851e39b0a654ab8, type: 3}
+    sprOff: {fileID: 21300000, guid: 1370e959d26cdd24988df4a1d99635dc, type: 3}
+    description: X Ads boost effect
+    value:
+    - 2
+    - 2.2
+    - 2.4
+    - 2.6
+    - 2.8
+    - 3
+    upgrade: 000000005000000014000000280000003c00000050000000
+  - merchantType: 3
+    sprOn: {fileID: 21300000, guid: 3209da74e971e7e42a44a34dc30f5fa5, type: 3}
+    sprOff: {fileID: 21300000, guid: eccca3c8fb4aae14fb48cf356be0ced6, type: 3}
+    description: X Customer move speed
+    value:
+    - 1
+    - 1.2
+    - 1.4
+    - 1.6
+    - 1.8
+    - 2
+    upgrade: 000000006400000014000000280000003c00000050000000
+  - merchantType: 4
+    sprOn: {fileID: 21300000, guid: 601b2076ff325d8408471a9419ce6a61, type: 3}
+    sprOff: {fileID: 21300000, guid: 6362f05640772374587130aa35c3f855, type: 3}
+    description: X Tip value
+    value:
+    - 1
+    - 1.05
+    - 1.1
+    - 1.15
+    - 1.2
+    - 1.3
+    upgrade: 000000008c00000014000000280000003c00000050000000
+  - merchantType: 5
+    sprOn: {fileID: 21300000, guid: 221528b2342140842936d223c4bdfc02, type: 3}
+    sprOff: {fileID: 21300000, guid: 0d79dff7a34b57545af4a9c69943ab92, type: 3}
+    description: X Offline revenue
+    value:
+    - 1
+    - 1.05
+    - 1.1
+    - 1.15
+    - 1.2
+    - 1.3
+    upgrade: 00000000b400000014000000280000003c00000050000000
+  - merchantType: 6
+    sprOn: {fileID: 21300000, guid: d57cd05db4aa44944afe6153f589dfd0, type: 3}
+    sprOff: {fileID: 21300000, guid: dca5819aebd85914f900de406065b4b8, type: 3}
+    description: min Ads boost duration
+    value:
+    - 5
+    - 5.5
+    - 6
+    - 6.5
+    - 7
+    - 8
+    upgrade: 00000000dc00000014000000280000003c00000050000000
+  - merchantType: 7
+    sprOn: {fileID: 21300000, guid: fef2833f35707224287eca5ae227cca8, type: 3}
+    sprOff: {fileID: 21300000, guid: 2a5fbb773b022ec4e83e6a0fc695424e, type: 3}
+    description: X Staff speed
+    value:
+    - 1
+    - 1.2
+    - 1.4
+    - 1.6
+    - 1.8
+    - 2
+    upgrade: 00000000fa00000014000000280000003c00000050000000
+  - merchantType: 8
+    sprOn: {fileID: 21300000, guid: c4c44dda696ff2c4e991031835eb6218, type: 3}
+    sprOff: {fileID: 21300000, guid: 54e200da729b77b42aeaff5996c92018, type: 3}
+    description: h Offline duration additional
+    value:
+    - 0
+    - 0.2
+    - 0.4
+    - 0.6
+    - 0.8
+    - 1
+    upgrade: 000000000e01000014000000280000003c00000050000000
+  - merchantType: 9
+    sprOn: {fileID: 21300000, guid: 4d5918a3fb36ee54db52d934f6ec1b4c, type: 3}
+    sprOff: {fileID: 21300000, guid: b5a83cd20fe8f9848ae0aa2c912a8525, type: 3}
+    description: X Reward money from ads
+    value:
+    - 1
+    - 1.1
+    - 1.2
+    - 1.3
+    - 1.4
+    - 1.5
+    upgrade: 000000002c01000014000000280000003c00000050000000

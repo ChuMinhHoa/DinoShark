@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7845d5757b09e7a40a8d70ecff5b91d9, type: 3}
+  m_Name: UpgradeDataByLevel2
+  m_EditorClassIdentifier: 
+  spriteDataConfig: {fileID: 11400000, guid: ef34a1475d0f4e042a93869937ee0aa7, type: 2}
+  upgradeCSVBylevel: {fileID: 4900000, guid: 56c2993417c47a344919b8f10fd79641, type: 3}
+  upgradeDatas:
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 12
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 1
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 20
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 2
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 35
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 3
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 0
+    refAmount: 0.25
+    priceUpgrade:
+      value: 53
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 4
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 160
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 5
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 400
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 6
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 0
+    refAmount: 2
+    priceUpgrade:
+      value: 620
+      exp: 0
+    sprIcon: {fileID: 21300000, guid: 163e09282742c7b488ad5cdbeffb7bc4, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 7
+  - upgradeName: ReduceTime
+    upgradeType: 2
+    foodID: 1
+    refAmount: 0.25
+    priceUpgrade:
+      value: 1.5
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 8
+  - upgradeName: IncreaseSpeedCheff
+    upgradeType: 4
+    foodID: 5
+    refAmount: 1.05
+    priceUpgrade:
+      value: 2.3
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 57889b1ba0b8deb45bc96bbdbc7f7cbf, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 9
+  - upgradeName: AddCheff
+    upgradeType: 0
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 2.9
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 71de81dcc7db6a343b2eb2ba64cba249, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: b2b569fa6485e1f4087366c1caf4e529, type: 3}
+    refID: 0
+    upgradeID: 10
+  - upgradeName: AddCustomer
+    upgradeType: 1
+    foodID: 5
+    refAmount: 1
+    priceUpgrade:
+      value: 5.3
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 1c231da705d38b7439e9bfdbb4b938b7, type: 3}
+    sprIconBootType: {fileID: 0}
+    refID: 0
+    upgradeID: 11
+  - upgradeName: IncreasePrice
+    upgradeType: 3
+    foodID: 1
+    refAmount: 2
+    priceUpgrade:
+      value: 13
+      exp: 3
+    sprIcon: {fileID: 21300000, guid: 5438a2b68308a484b9cabe766b105527, type: 3}
+    sprIconBootType: {fileID: 21300000, guid: 845081d343c92a3489fa03b4232ebe6b, type: 3}
+    refID: 0
+    upgradeID: 12

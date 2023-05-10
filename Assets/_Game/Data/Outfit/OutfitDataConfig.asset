@@ -1,0 +1,518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a0f4ec31d2a6045a7fdd80477af86b, type: 3}
+  m_Name: OutfitDataConfig
+  m_EditorClassIdentifier: 
+  rarityInfos:
+  - rarity: 0
+    increaseBoot: 3
+    priceUpgrade: 3
+    maxLevel: 10
+    colorRarity: {r: 0.46274513, g: 0.45098042, b: 0.5019608, a: 1}
+    sprSlot: {fileID: 21300000, guid: 3c18b0021cc2df74ca20c94912752b52, type: 3}
+    subFrame: {fileID: 0}
+  - rarity: 1
+    increaseBoot: 9
+    priceUpgrade: 5
+    maxLevel: 15
+    colorRarity: {r: 0.09019608, g: 0.83921576, b: 0.43921572, a: 1}
+    sprSlot: {fileID: 21300000, guid: f8d60ecc1d762614e88807acd84535d2, type: 3}
+    subFrame: {fileID: 0}
+  - rarity: 2
+    increaseBoot: 27
+    priceUpgrade: 10
+    maxLevel: 20
+    colorRarity: {r: 0.16078432, g: 0.43529415, b: 1, a: 1}
+    sprSlot: {fileID: 21300000, guid: 506170524c2b69e46a01cb0ff533b603, type: 3}
+    subFrame: {fileID: 0}
+  - rarity: 3
+    increaseBoot: 81
+    priceUpgrade: 15
+    maxLevel: 25
+    colorRarity: {r: 0.6392157, g: 0.30980393, b: 0.9490197, a: 1}
+    sprSlot: {fileID: 21300000, guid: a005456f0004e9341884b1aedc945ab9, type: 3}
+    subFrame: {fileID: 0}
+  - rarity: 4
+    increaseBoot: 162
+    priceUpgrade: 20
+    maxLevel: 30
+    colorRarity: {r: 0.6392157, g: 0.30980393, b: 0.9490197, a: 1}
+    sprSlot: {fileID: 21300000, guid: a005456f0004e9341884b1aedc945ab9, type: 3}
+    subFrame: {fileID: 21300000, guid: 2f6cf4048ce02f24cb3d8b56bcef53bb, type: 3}
+  - rarity: 5
+    increaseBoot: 324
+    priceUpgrade: 25
+    maxLevel: 35
+    colorRarity: {r: 0.6392157, g: 0.30980393, b: 0.9490197, a: 1}
+    sprSlot: {fileID: 21300000, guid: a005456f0004e9341884b1aedc945ab9, type: 3}
+    subFrame: {fileID: 21300000, guid: 3ba2d5016854e7f48b899482f010e0d7, type: 3}
+  - rarity: 6
+    increaseBoot: 648
+    priceUpgrade: 30
+    maxLevel: 40
+    colorRarity: {r: 0.9686275, g: 0.6745098, b: 0.14117648, a: 1}
+    sprSlot: {fileID: 21300000, guid: 50165be246347ff4cb2a3b7c2369e643, type: 3}
+    subFrame: {fileID: 0}
+  - rarity: 7
+    increaseBoot: 1296
+    priceUpgrade: 35
+    maxLevel: 45
+    colorRarity: {r: 0.9686275, g: 0.6745098, b: 0.14117648, a: 1}
+    sprSlot: {fileID: 21300000, guid: 50165be246347ff4cb2a3b7c2369e643, type: 3}
+    subFrame: {fileID: 21300000, guid: 2f6cf4048ce02f24cb3d8b56bcef53bb, type: 3}
+  - rarity: 8
+    increaseBoot: 2592
+    priceUpgrade: 40
+    maxLevel: 50
+    colorRarity: {r: 0.9686275, g: 0.6745098, b: 0.14117648, a: 1}
+    sprSlot: {fileID: 21300000, guid: 50165be246347ff4cb2a3b7c2369e643, type: 3}
+    subFrame: {fileID: 21300000, guid: 3ba2d5016854e7f48b899482f010e0d7, type: 3}
+  - rarity: 9
+    increaseBoot: 5184
+    priceUpgrade: 45
+    maxLevel: 55
+    colorRarity: {r: 0.9686275, g: 0.6745098, b: 0.14117648, a: 1}
+    sprSlot: {fileID: 21300000, guid: 50165be246347ff4cb2a3b7c2369e643, type: 3}
+    subFrame: {fileID: 21300000, guid: 212c346508f1de643866d0ae7e64346b, type: 3}
+  - rarity: 10
+    increaseBoot: 10368
+    priceUpgrade: 50
+    maxLevel: 60
+    colorRarity: {r: 0.882353, g: 0.13333334, b: 0.22352943, a: 1}
+    sprSlot: {fileID: 21300000, guid: d7c14aea07b2979428f60ef09033332f, type: 3}
+    subFrame: {fileID: 0}
+  outfitDatas:
+  - outfitType: 0
+    outfitTypeIcon: {fileID: 21300000, guid: 489fc6a2811f28d4f8068cbeebb9fcd6, type: 3}
+    outfitDatas:
+    - outfitName: Mexican
+      outfitIcon: {fileID: 21300000, guid: 9623c86f4c8cb2d49890c16635c1703a, type: 3}
+      mesh: {fileID: 9169954429367926045, guid: 6c8a3f88350b4b2439da958842d287c4, type: 3}
+      outfitObj: {fileID: 1692767748103218255, guid: 39663bd75c1ab1e4cb0869742bd136df, type: 3}
+      outfitID: 0
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Ocean
+      outfitIcon: {fileID: 21300000, guid: 6e2bd57e6ae24f14293696b0cb3d3413, type: 3}
+      mesh: {fileID: -2747016575852878119, guid: 18c48f347d3f0704fad386d71f8b6812, type: 3}
+      outfitObj: {fileID: 1754926929454747001, guid: 73b746aa40c4e734ead78260eaaad3ff, type: 3}
+      outfitID: 1
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 5
+        bootValue: 25
+        rarity: 3
+      - bootType: 7
+        bootValue: 5
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Pirate
+      outfitIcon: {fileID: 21300000, guid: d9a28addadd66424ead08c62711e43d9, type: 3}
+      mesh: {fileID: 2570295611159163646, guid: 310dada6c7274ec4c8571fbb479520f2, type: 3}
+      outfitObj: {fileID: 7688068665899105742, guid: 0ae33cb81472ab844bf5f7beeea4fb91, type: 3}
+      outfitID: 2
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 4
+        bootValue: 40
+        rarity: 3
+      - bootType: 8
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Samurai
+      outfitIcon: {fileID: 21300000, guid: c5d9044323845504c80a01ea2e20ecd9, type: 3}
+      mesh: {fileID: -5916400263692045774, guid: a2195637bec303d42bed5869788dd54a, type: 3}
+      outfitObj: {fileID: 5048511514413302997, guid: 359cb9ac43f38414e81d81b440a5cb11, type: 3}
+      outfitID: 3
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Viking
+      outfitIcon: {fileID: 21300000, guid: b265d47a89caab74f922df6ac190f651, type: 3}
+      mesh: {fileID: 1794707628930664102, guid: 3b1583dd7a77f7b43b9778e9d160fc6b, type: 3}
+      outfitObj: {fileID: 9016876355619731270, guid: a11bf8ed9c986d040ba4678718349e45, type: 3}
+      outfitID: 4
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 5
+        bootValue: 25
+        rarity: 3
+      - bootType: 7
+        bootValue: 5
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Police
+      outfitIcon: {fileID: 21300000, guid: 92f34d60ddb22e242bd65e57aad9f803, type: 3}
+      mesh: {fileID: -3226111344006997639, guid: 2bf3e022b4e671544be968983ba1966b, type: 3}
+      outfitObj: {fileID: 8152364605552535211, guid: dc6b8ab6f3b54a94b8ebf16e72a106b5, type: 3}
+      outfitID: 5
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 4
+        bootValue: 40
+        rarity: 3
+      - bootType: 8
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Sailor
+      outfitIcon: {fileID: 21300000, guid: 3fa21a4264396da468b4f4c4e89a7443, type: 3}
+      mesh: {fileID: 2157414351127575091, guid: 4ae47c82df9ea054c99637e0e2672056, type: 3}
+      outfitObj: {fileID: 7053174410313998148, guid: 11c06196e037daa419f828f6af82e01b, type: 3}
+      outfitID: 6
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+  - outfitType: 1
+    outfitTypeIcon: {fileID: 21300000, guid: 68c1fa15e33360b4987ff437d3b5ab76, type: 3}
+    outfitDatas:
+    - outfitName: Mexican
+      outfitIcon: {fileID: 21300000, guid: 3c9f9461a1f80fe44a1ac0ba77d21ba7, type: 3}
+      mesh: {fileID: 4242568401594530585, guid: f9b25e86961f7b04dbb2c65b15b05025, type: 3}
+      outfitObj: {fileID: 6187436423189055441, guid: 921dffcc94b265348a4ae84b34a766ee, type: 3}
+      outfitID: 0
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Ocean
+      outfitIcon: {fileID: 21300000, guid: b82403fe3733a3a468af04be7f17de03, type: 3}
+      mesh: {fileID: 7529039990609604926, guid: f231d8a41219c2440b704b43fc200521, type: 3}
+      outfitObj: {fileID: 5401209592859401598, guid: 961e58c7c3bf1544792be2d1e4e85501, type: 3}
+      outfitID: 1
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Pirate
+      outfitIcon: {fileID: 21300000, guid: bf674f42281b31c45a586d4ddc6e589d, type: 3}
+      mesh: {fileID: -5351473122318534466, guid: 5e00b59f88e938f4e85fbfa14abb82a4, type: 3}
+      outfitObj: {fileID: 3779458848328685183, guid: 1142ca9607ec8fc438ad1fbe24df33e9, type: 3}
+      outfitID: 2
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 5
+        bootValue: 25
+        rarity: 3
+      - bootType: 7
+        bootValue: 5
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Samurai
+      outfitIcon: {fileID: 21300000, guid: 6a521bfc3b1b9ae42a2fd306020bbbc0, type: 3}
+      mesh: {fileID: 3224679417156195736, guid: 81d1e39ccad07f14a877ee7c6c73fca4, type: 3}
+      outfitObj: {fileID: 5088325937558077868, guid: 1a09ef23f88fcba47b09df0eeb22eaa5, type: 3}
+      outfitID: 3
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 4
+        bootValue: 40
+        rarity: 3
+      - bootType: 8
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Viking
+      outfitIcon: {fileID: 21300000, guid: 7b6fad5563fbc7349afa98ec806155f6, type: 3}
+      mesh: {fileID: -36764303239326475, guid: 4371d1020ebb67b42864cd404eea4dd8, type: 3}
+      outfitObj: {fileID: 3520333284975603904, guid: 080c51955607c864aaec4ed21ec9ef97, type: 3}
+      outfitID: 4
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Police
+      outfitIcon: {fileID: 21300000, guid: c7559112df167074f8b3d8823a8e42db, type: 3}
+      mesh: {fileID: 4012977687808670575, guid: a136760ac55f3444cb29de6e99a41469, type: 3}
+      outfitObj: {fileID: 3241900556790211260, guid: 7dab21fd66f7e014b9e8e1a1eb6505a0, type: 3}
+      outfitID: 5
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 5
+        bootValue: 25
+        rarity: 3
+      - bootType: 7
+        bootValue: 5
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Sailor
+      outfitIcon: {fileID: 21300000, guid: 14e6d1f3092fd1b4f814d444c53f3c7a, type: 3}
+      mesh: {fileID: -8686064353544333070, guid: 9a17014490f62e24aa88038f65af8e8a, type: 3}
+      outfitObj: {fileID: 162774014176917055, guid: efae1fae99f6ef940b7bd8ef327646e1, type: 3}
+      outfitID: 6
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 4
+        bootValue: 40
+        rarity: 3
+      - bootType: 8
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+  - outfitType: 2
+    outfitTypeIcon: {fileID: 21300000, guid: fec8ac647ed8e9046b7525d13ca5680d, type: 3}
+    outfitDatas:
+    - outfitName: Mexican
+      outfitIcon: {fileID: 21300000, guid: e56bf440047c37740a1bea04e0f6d0dc, type: 3}
+      mesh: {fileID: -2298800632814593474, guid: a18cffda53a99164b9cc72f08084241d, type: 3}
+      outfitObj: {fileID: 863815653743109203, guid: 18c89240152e1b14cab762480e556c84, type: 3}
+      outfitID: 0
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 4
+        bootValue: 40
+        rarity: 3
+      - bootType: 8
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Ocean
+      outfitIcon: {fileID: 21300000, guid: c9294b1a9c07562458168c943f099f28, type: 3}
+      mesh: {fileID: 6531098775091103854, guid: 9f22de55001196042aff28cf6d00a5d6, type: 3}
+      outfitObj: {fileID: 320484782440538006, guid: a8335d670e8c43945aed13b2312fa397, type: 3}
+      outfitID: 1
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Pirate
+      outfitIcon: {fileID: 21300000, guid: 404a323f826b96948a81393c64c87748, type: 3}
+      mesh: {fileID: 3160986190401570896, guid: 8b1ed506d1d27d7418f35955ad9f45e9, type: 3}
+      outfitObj: {fileID: 6191620896557924287, guid: aa7bf35a7ae23474385302ee476812f7, type: 3}
+      outfitID: 2
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Samurai
+      outfitIcon: {fileID: 21300000, guid: 86b327bea9fd35d41893555ec3b8bd6f, type: 3}
+      mesh: {fileID: 3967235299861622953, guid: 5f571f1e3542fe94a89de2d06858494b, type: 3}
+      outfitObj: {fileID: 4546960972135920683, guid: 477a43466afba164fbb75f93f1789632, type: 3}
+      outfitID: 3
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 5
+        bootValue: 25
+        rarity: 3
+      - bootType: 7
+        bootValue: 5
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Viking
+      outfitIcon: {fileID: 21300000, guid: 5c1ebee6ace7e6d41a343f2b87884981, type: 3}
+      mesh: {fileID: -1780188316040344800, guid: 1a57b8351c0ce4f408eb263e587ea574, type: 3}
+      outfitObj: {fileID: 6114779308837621351, guid: cbeb77a5f27c5a742abd1741ee65f6cf, type: 3}
+      outfitID: 4
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 4
+        bootValue: 40
+        rarity: 3
+      - bootType: 8
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Police
+      outfitIcon: {fileID: 21300000, guid: 4ea42157c9a687e40868b7cfc5a78aaf, type: 3}
+      mesh: {fileID: 878206139544650047, guid: a462f29fefa689f4b998688ff3ebe7b8, type: 3}
+      outfitObj: {fileID: 6263626880720988484, guid: 3067bf191f3de9c4daa157a0fd9bb3cc, type: 3}
+      outfitID: 5
+      bootOutfits:
+      - bootType: 3
+        bootValue: 100
+        rarity: 2
+      - bootType: 0
+        bootValue: 10
+        rarity: 3
+      - bootType: 2
+        bootValue: 10
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+    - outfitName: Sailor
+      outfitIcon: {fileID: 21300000, guid: 51781330f665ffa4dbde01f6ef2a9f73, type: 3}
+      mesh: {fileID: 6613665614624658118, guid: b485d70233acf6745acb98692827ae13, type: 3}
+      outfitObj: {fileID: 8040821637114503858, guid: a1faf8a74b6450a4bafed96a7d0041cd, type: 3}
+      outfitID: 6
+      bootOutfits:
+      - bootType: 1
+        bootValue: 35
+        rarity: 2
+      - bootType: 5
+        bootValue: 25
+        rarity: 3
+      - bootType: 7
+        bootValue: 5
+        rarity: 4
+      - bootType: 6
+        bootValue: 2
+        rarity: 5
+  combineConditions:
+  - rarity: 0
+    amount: 3
+    sameId: 1
+  - rarity: 1
+    amount: 3
+    sameId: 1
+  - rarity: 2
+    amount: 3
+    sameId: 1
+  - rarity: 3
+    amount: 2
+    sameId: 0
+  - rarity: 4
+    amount: 2
+    sameId: 0
+  - rarity: 5
+    amount: 2
+    sameId: 1
+  - rarity: 6
+    amount: 2
+    sameId: 0
+  - rarity: 7
+    amount: 2
+    sameId: 0
+  - rarity: 8
+    amount: 2
+    sameId: 0
+  - rarity: 9
+    amount: 3
+    sameId: 1
+  defaultOutfits:
+  - type: 0
+    outfit: {fileID: 861811573828539901, guid: 6555a7b92d8580f4a908aed05c8a1e28, type: 3}
+  - type: 1
+    outfit: {fileID: 7259782037355368407, guid: 384377e8f499ffb4c89f1c8745ba8d3c, type: 3}
+  - type: 2
+    outfit: {fileID: 8634793900904818913, guid: 42524af94d88a6740a8df91e3679cfcd, type: 3}

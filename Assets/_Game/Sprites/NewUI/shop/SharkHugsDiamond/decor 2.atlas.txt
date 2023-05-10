@@ -1,0 +1,38 @@
+decor 2.png
+size:1631,561
+filter:Linear,Linear
+pma:true
+Ellipse 8
+bounds:1503,159,83,35
+Ellipse 8 copy
+bounds:1577,208,63,32
+rotate:90
+Layer 10
+bounds:581,21,538,367
+rotate:90
+Layer 11
+bounds:1449,387,180,172
+Layer 12
+bounds:950,2,394,145
+Layer 15
+bounds:950,149,410,299
+rotate:90
+Layer 16
+bounds:1346,10,147,239
+rotate:90
+Shape 11
+bounds:1449,273,156,112
+Shape 12
+bounds:1251,151,87,102
+Shape 13 copy
+bounds:1428,177,73,76
+Shape 13 copy 2
+bounds:1503,196,72,75
+Shape 8
+bounds:1251,255,196,304
+Shape 9
+bounds:2,9,550,577
+rotate:90
+gem copy 6
+bounds:1340,159,94,86
+rotate:90

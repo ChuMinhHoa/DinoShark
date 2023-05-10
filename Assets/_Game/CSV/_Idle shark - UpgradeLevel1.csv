@@ -1,0 +1,6 @@
+Upgrade Type,PriceValue,PriceEXP,Amount,Food ID,Spire Icon,SpireBootType,Upgrade ID,Ref ID
+AddCustomer,5,0,1,None,Shark_Customer_Icon,None,1,0
+AddCheff,12,0,1,None,Shark_Cheff_Icon,None,2,0
+AddCustomer,25,0,1,None,Shark_Customer_Icon,None,3,0
+IncreasePrice,50,0,3,IceCream,IceCream_Icon,Increase,4,0
+ReduceTime,100,0,0.25,IceCream,IceCream_Icon,Reduce,5,0

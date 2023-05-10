@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53aff17694a624846abd2f64c5a32cc4, type: 3}
+  m_Name: MagnitudeRangeData
+  m_EditorClassIdentifier: 
+  lowerMinRange:
+    rangeType: 0
+    minMagnitude: -0.1
+    maxMagnitude: 0.1
+  minRange:
+    rangeType: 1
+    minMagnitude: -0.25
+    maxMagnitude: 0.25
+  upperMinRange:
+    rangeType: 2
+    minMagnitude: -0.5
+    maxMagnitude: 0.5
+  lowerMediumRange:
+    rangeType: 3
+    minMagnitude: -1
+    maxMagnitude: 1
+  mediumRange:
+    rangeType: 4
+    minMagnitude: -1.25
+    maxMagnitude: 1.25
+  upperMediumRange:
+    rangeType: 5
+    minMagnitude: -1.5
+    maxMagnitude: 1.5
+  lowerMaxRange:
+    rangeType: 6
+    minMagnitude: -1.75
+    maxMagnitude: 1.75
+  maxRange:
+    rangeType: 7
+    minMagnitude: -2
+    maxMagnitude: 2
+  upperMaxRange:
+    rangeType: 8
+    minMagnitude: -2.25
+    maxMagnitude: 2.25

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff93f583342a44242829545f5fe537c9, type: 3}
+  m_Name: MenuDataConfigLevel3
+  m_EditorClassIdentifier: 
+  levelMax: 75
+  listFoodConfig:
+  - sprIcon: {fileID: 21300000, guid: 93b213cdd6c8a044f9860f43a04fec92, type: 3}
+    meshFood: {fileID: 1740837847048191739, guid: 1844e78c70343d54cb69bffa69db7165, type: 3}
+    foodID: 6
+  - sprIcon: {fileID: 21300000, guid: 1dc86707995022a4c9f5ff12a58f6c9f, type: 3}
+    meshFood: {fileID: -1804122068394791281, guid: 4984aa46791ae8a4ca53d6db1d8691db, type: 3}
+    foodID: 7
+  - sprIcon: {fileID: 21300000, guid: 99733a43aa9f00849a984b490c9a9c07, type: 3}
+    meshFood: {fileID: 7373478645641530871, guid: a9edcaa9dd99fdf4e9edeccfdb31c033, type: 3}
+    foodID: 13

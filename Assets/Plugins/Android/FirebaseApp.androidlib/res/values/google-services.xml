@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">965927717396</string>
+  <string name="google_storage_bucket" translatable="false">idle-food-adventure.appspot.com</string>
+  <string name="project_id" translatable="false">idle-food-adventure</string>
+  <string name="google_api_key" translatable="false">AIzaSyC0YawUd4owKwj_c8TiyqWikUWcpjlNpr4</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC0YawUd4owKwj_c8TiyqWikUWcpjlNpr4</string>
+  <string name="google_app_id" translatable="false">1:965927717396:android:3b4e55430d3a9d15ab3501</string>
+  <string name="default_web_client_id" translatable="false">965927717396-rm5et944kgn3c4kim0h2mh8e84f95d3r.apps.googleusercontent.com</string>
+</resources>

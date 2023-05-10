@@ -1,0 +1,41 @@
+Chest.png
+size:2017,356
+filter:Linear,Linear
+pma:true
+Group 11
+bounds:1162,2,356,168
+Group 12
+bounds:1184,174,366,180
+Layer 36
+bounds:2,11,343,146
+rotate:90
+Layer 39
+bounds:1552,193,78,48
+Layer 45 copy
+bounds:1916,293,61,99
+rotate:90
+common1
+bounds:1520,28,144,59
+rotate:90
+common2
+bounds:444,172,368,182
+common3
+bounds:444,2,357,168
+common4
+bounds:1632,132,362,109
+common5
+bounds:297,12,342,145
+rotate:90
+epic suitcase close
+bounds:1552,243,362,111
+rare1
+bounds:1916,243,78,48
+rare2
+bounds:814,172,368,182
+rare3
+bounds:803,2,357,168
+rare4
+bounds:1581,20,360,110
+rare5
+bounds:150,11,343,145
+rotate:90

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d97834300c68e147976f7d9401d2e08, type: 3}
+  m_Name: LevelDataConfig
+  m_EditorClassIdentifier: 
+  sprLevelComingSoon: {fileID: 0}
+  levelDatas:
+  - levelName: Level1
+    levelSpriteOn: {fileID: 21300000, guid: f177de2b627088c448a57ae7c4b388b0, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: 107784b0a789eeb42800e35306366101, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0, y: 10, z: 0}
+    cameraLimitMin: 13
+    cameraLimitMax: 13
+    cameraZoom: 14
+    cameraRotate: 40
+    cameraZoomMax: 8
+    sizeMax: 2
+    description: 
+  - levelName: Level2
+    levelSpriteOn: {fileID: 21300000, guid: 383a7153b03634546be7e2a3a666a29a, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: d2446952ba7d258428ff16dcbc405d37, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0, y: 3, z: 0}
+    cameraLimitMin: 1.75
+    cameraLimitMax: 4.75
+    cameraZoom: 12.5
+    cameraRotate: 35
+    cameraZoomMax: 6
+    sizeMax: 4
+    description: 
+  - levelName: Level3
+    levelSpriteOn: {fileID: 21300000, guid: 2d5481df04542724688ed6d4b6acc491, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: 7456b9474bbad38459d0b6206390a46e, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0, y: 11, z: 0}
+    cameraLimitMin: 7
+    cameraLimitMax: 14.5
+    cameraZoom: 15
+    cameraRotate: 40
+    cameraZoomMax: 7
+    sizeMax: 6
+    description: 
+  - levelName: Level4
+    levelSpriteOn: {fileID: 21300000, guid: 09824ffc03e595b409f740e5eb3217f8, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: 17b0c815e9cf2ce4f8b467907e66ab71, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0, y: 4.5, z: 0}
+    cameraLimitMin: 2.5
+    cameraLimitMax: 13.5
+    cameraZoom: 18
+    cameraRotate: 35
+    cameraZoomMax: 10
+    sizeMax: 7
+    description: 
+  - levelName: Level5
+    levelSpriteOn: {fileID: 21300000, guid: fb75eb718d3150c4a911e4511b07bfe7, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: ade8fc4f888ea914b902006e6c1fefb2, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0, y: 3.75, z: 0}
+    cameraLimitMin: 0
+    cameraLimitMax: 10
+    cameraZoom: 15
+    cameraRotate: 35
+    cameraZoomMax: 9
+    sizeMax: 6
+    description: 
+  - levelName: Level6
+    levelSpriteOn: {fileID: 21300000, guid: 50bf2345c24cdc24c9a4330dbaab646c, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: 0f0bdaf783f0c164aaac1f88fe1ae6bc, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0.75, y: 2, z: 2.8}
+    cameraLimitMin: 0
+    cameraLimitMax: 9
+    cameraZoom: 14
+    cameraRotate: 35
+    cameraZoomMax: 8
+    sizeMax: 15
+    description: 
+  - levelName: Level7
+    levelSpriteOn: {fileID: 21300000, guid: ea7891bf47ec16d47adf331f2e88c479, type: 3}
+    levelSpriteOff: {fileID: 21300000, guid: 2b751fe64861f7449a685eb2feccbef3, type: 3}
+    levelType: 0
+    vectorCameraDefault: {x: 0, y: 0, z: 0}
+    cameraLimitMin: 0
+    cameraLimitMax: 3
+    cameraZoom: 18
+    cameraRotate: 30
+    cameraZoomMax: 10
+    sizeMax: 9
+    description: 

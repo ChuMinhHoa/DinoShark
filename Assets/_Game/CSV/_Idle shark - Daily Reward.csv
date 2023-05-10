@@ -1,0 +1,22 @@
+Day,RewardType,Amount,OutfitID,OutfitType,OutfitRarity,IconSprite
+1,NobleSuitcase,1,-1,None,None,NSuitcase
+2,Gems,20,-1,None,None,icon gem
+3,Gems,20,-1,None,None,icon gem
+4,NobleSuitcase,1,-1,None,None,NSuitcase
+5,Gems,20,-1,None,None,icon gem
+6,Gems,20,-1,None,None,icon gem
+7,Outfit,1,6,Hat,Epic,None
+8,NobleSuitcase,2,-1,None,None,NSuitcase
+9,Gems,30,-1,None,None,icon gem
+10,Gems,30,-1,None,None,icon gem
+11,NobleSuitcase,2,-1,None,None,NSuitcase
+12,Gems,30,-1,None,None,icon gem
+13,Gems,30,-1,None,None,icon gem
+14,Outfit,1,6,Clothes,Epic,None
+15,NobleSuitcase,1,-1,None,None,NSuitcase
+16,Gems,50,-1,None,None,icon gem
+17,Gems,50,-1,None,None,icon gem
+18,NobleSuitcase,1,-1,None,None,NSuitcase
+19,Gems,70,-1,None,None,icon gem
+20,Gems,70,-1,None,None,icon gem
+21,Outfit,1,6,Tool,Epic,None
